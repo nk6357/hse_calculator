@@ -164,7 +164,7 @@ body {
 
 .parameters {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 40px;
 }
 
@@ -178,7 +178,12 @@ body {
     text-align: center;
     font-weight: bold;
 }
-
+.name-output {
+    border: 0px solid black;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
 .outputs {
     display: flex;
     gap: 15px;
@@ -203,8 +208,8 @@ body {
 }
 
 .accuracy-input input {
-    width: 90px;
-    height: 40px;
+    width: 270px;
+    height: 50px;
     border: 2px solid black;
     box-sizing: border-box;
 }
@@ -227,11 +232,33 @@ body {
     font-weight: bold;
 }
 
+#anal {
+    display: block;
+    margin: 0px auto;
+    padding: 12px 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 .result {
     display: block;
     width: 550px;
     height: 55px;
     margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.result2 {
+    display: flex;
+    width: 550px;
+    height: 55px;
+    margin: 0px auto;
     border: 2px solid black;
     border-radius: 15px;
     background-color: white;
