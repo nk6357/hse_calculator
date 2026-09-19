@@ -104,6 +104,7 @@ body {
 }
 
 .buttons button {
+    display: flex;
     width: 100px;
     height: 100px;
     border: 2px solid black;
@@ -271,6 +272,16 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.glavcalc123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 50px;
 }
 .txtblock {
     text-align: center;

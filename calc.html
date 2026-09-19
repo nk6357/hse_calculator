@@ -28,7 +28,7 @@
     <div class="root">
         <span class="root-number">2</span>
         <span class="root-symbol">√</span>
-        <input type="text" class="root-input">
+        <input id="inroot" type="text" class="root-input">
     </div>
 
     <div class="parameters">
@@ -38,9 +38,8 @@
             <div class="parameter-title">
                 Количество знаков после запятой
             </div>
-
             <div class="accuracy-input">
-                <input type="number" min="0" max="512">
+                <input id="accuracy" type="number" min="0" max="512" value="0">
             </div>
         </div>
 
@@ -49,28 +48,16 @@
     <button type="button" id="Calculate">Вычислить</button>
 
     <div class="name-output">
-        Вывод корня в виде числа:
+        Вывод корня:
     </div>
 
-    <output class="result"></output>
+    <output id="numeric-result" class="result"></output>
 
     <div class="name-output">
-        Вывод корня в аналитической форме (если корень не целый):
+        Вывод корня в аналитической форме:
     </div>
 
-    <output class="result2"></output>
-
-    <div class="name-output">
-        Вывод в комплексной форме:
-    </div>
-
-    <output class="result2"></output>
-
-    <div class="name-output">
-        Вывод в тригонометрической форме:
-    </div>
-
-    <output class="result2"></output>
+    <output id="analytic-result" class="result2"></output>
 </div>
-
+<script src="script.js"></script>
 </body>
